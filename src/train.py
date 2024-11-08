@@ -8,7 +8,7 @@ from dataset import PneumoniaDataset
 
 
 transform = transforms.Compose([
-    transforms.Resize((128, 128)),
+    transforms.Resize((256, 256)),
     transforms.ToTensor(),
     transforms.Normalize((1,), (1,))
 ])
